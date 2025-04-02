@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+
+<title>country information</title>
+    </head>
+    <body>
+        <form id=bob>
+        <h1>country information</h1>
+        <label for='name'>Name:</label><br>
+        <input type='text' id='name'><br>
+        <label for='age'>Age</label><br>
+        <input type='text' id='age'><br>
+        <h3>where do you live?</h3>
+        <input type='text' id='country'><br>
+        <label for='favourite'>Favourite country</label>
+        <input type='text' id='favourite'>
+        <legend>
+
+        </legend>
+        <input type='submit'>
+    </form>
+
+        <script>
+            let formID = document.getElementById('bob')
+            formID.addEventListener('submit',something)
+            function something(event){
+                event.preventDefault()
+                let name = document.getElementById('bob')
+                console.log(name.value)
+                let age = document.getElementById('age')
+                console.log(age.value)
+                
+            
+
+
+
+
+
+            }
+        </script>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+    </html>
