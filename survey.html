@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+
+<title>country information</title>
+    </head>
+    <body>
+        <form id="bob">
+        <a href="country111.html">Go Back</a><br>
+        <form id=bob>
+            <fieldset>
+        <legend> information</legend>
+        <label for='name'>Name:</label><br>
+        <input type='text' id='name'><br>
+        <label for='age'>Age</label><br>
+        <input type='text' id='age'><br>
+        <h3>where do you live?</h3>
+        <input type='text' id='country'><br>
+        <label for='favourite'>Favourite country you have visited</label>
+        <input type='text' id='favourite'><br>
+        <h4>did you like where you visited?</h4>
+        <label for='yes'>Yes</label>
+        <input type='radio' id=yes name=one>
+        <laebl for='no'>No</laebl>
+        <input type='radio' id='no' name=one>`
+        <label for ='checkbox'>do you want to subscribe to the newsettler
+            <input type="checkbox">
+            <script>
+            let formID = document.getElementById('bob')
+            formID.addEventListener('submit',something)
+            function something(event){
+                event.preventDefault()
+                let name = document.getElementById('bob')
+                console.log(name.value)
+                let age = document.getElementById('age')
+                console.log(age.value)
+                let favourite=document.getElementById('bob')
+                console.log(favourite.value)
+                let yes = document.getElementById('bob')
+                console.log(yes.value)
+                let no = document.getElementById('bob')
+            }
+            </script>
+        </label>
+    </fieldset>
+        </form>
